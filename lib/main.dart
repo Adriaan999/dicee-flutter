@@ -4,12 +4,20 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.red,
         appBar: AppBar(
-          title: Text('I am Poor'),
-          backgroundColor: Colors.blueGrey.shade900,
+          title: Text('Dicee'),
+          backgroundColor: Colors.red,
         ),
+        body: DicePage(),
       ),
     ),
   );
+}
+
+class DicePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
 }
